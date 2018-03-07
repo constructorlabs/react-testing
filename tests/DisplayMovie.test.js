@@ -17,7 +17,6 @@ describe('Counter component', () => {
 
       setTimeout(() => {
         const update = wrapper.update();
-        console.log(update.html());
         const text = update.find('h1').text();
         expect(text).toEqual('My awesome movie');
         done();
