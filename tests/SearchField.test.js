@@ -36,7 +36,5 @@ describe('SearchField', () => {
     ]);
 
     expect(event.preventDefault.mock.calls).toEqual([ [] ]);
-  })
-
-
+  });
 });
