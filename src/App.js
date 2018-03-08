@@ -1,5 +1,6 @@
 import React from 'react';
-import DisplayMovie from './DisplayMovie';
+import Display from './Display';
+
 
 class App extends React.Component {
   constructor(){
@@ -9,7 +10,7 @@ class App extends React.Component {
   render(){
     return (
       <div>
-        <DisplayMovie />
+        <Display title="Hello" message="Some message"/>
       </div>
     )
   }
